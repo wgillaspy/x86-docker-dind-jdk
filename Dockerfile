@@ -1,6 +1,6 @@
 FROM docker:dind
 
-RUN apk add --update openjdk8 git openssh openssh-client bash curl
+RUN apk add --update openjdk8 git openssh openssh-client bash curl pass
 
 COPY init.sh /tmp/init.sh
 
